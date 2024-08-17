@@ -1,0 +1,14 @@
+{
+    "name": "bitcoin-sim",
+    "version": "1.0.0",
+    "description": "A simple Bitcoin-like server",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "ws": "^8.13.0",
+      "crypto": "^1.0.1",
+      "elliptic": "^6.5.4"
+    }
+  }
